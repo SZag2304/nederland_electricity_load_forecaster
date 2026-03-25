@@ -85,6 +85,8 @@ To ensure the model captures physical grid drivers rather than just immediate pe
 | **MAE** (Mean Absolute Error) | **368.44** |
 | **$R^2$ Score** | **0.8423** |
 
+<img width="1612" height="876" alt="load_forecasting" src="https://github.com/user-attachments/assets/93007300-9563-4185-bfc3-11dd724f4e91" />
+
 ---
 
 ## 🔍 Feature Importance Analysis
@@ -96,6 +98,8 @@ The XGBoost model identifies the following as the primary drivers of electricity
 3. **`lag_672` (Weekly Seasonality):** Captures the 7-day cyclical nature of the European power market.
 4. **`hour`:** Represents the standard "Dual-Peak" daily demand curve.
 5. **`windgust`:** Indicates a significant meteorological influence on load, likely tied to wind-chill factors or grid-level correlations.
+
+<img width="1312" height="976" alt="feature_importance" src="https://github.com/user-attachments/assets/500a6bb6-651e-4957-8231-eacb5a2b5f28" />
 
 ---
 
