@@ -65,7 +65,7 @@ The project utilizes the **XGBoost Regressor**, a gradient-boosted decision tree
 * **Estimators:** 1000
 * **Learning Rate:** 0.05
 * **Early Stopping:** 50 rounds (to prevent overfitting)
-* **Data Split:** 50% Training / 70% Testing
+* **Data Split:** 80% Training / 20% Testing
 
 ---
 
